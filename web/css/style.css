@@ -1035,6 +1035,17 @@ fieldset div {
 #pinkForm .block h3 {
   text-align: center;
 }
+/* line 72, ../../sass/partials/specific/_pinkForm.scss */
+#pinkForm .greyBox {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 2px dashed #aaaaaa;
+  text-align: center;
+  padding: 10px 60px;
+}
 
 /* line 3, ../../sass/partials/_footer.scss */
 .siteFoot {

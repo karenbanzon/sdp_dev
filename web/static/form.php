@@ -167,6 +167,68 @@
 									<input type="text"></input>
 								</div>
 							</fieldset>
+							<fieldset>
+								<h6>How you think</h6>
+								<div>
+									Introduce yourself briefly
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									What do you love doing during your free time?
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									What are your greatest accomplishments?
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									What are your strengths and weaknesses?
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									What is the most pressure-filled situation you've been in?
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									How did you manage that situation?
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									What traits do you find admirable in a person?
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									Why do you consider these traits admirable?
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									Why would you consider yourself a leader?
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									Name the top 5 qualities you believe a leader should have.
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									Name the top 5 qualities you believe a leader should do without.
+									<textarea rows="4"></textarea>
+								</div>
+								<div>
+									What inspires you?
+									<textarea rows="4"></textarea>
+								</div>
+							</fieldset>
+							<fieldset>
+								<h6>Just to make sure you're serious</h6>
+								<div>
+									Upload a photo of your UP ID
+									<div class="greyBox">
+                                        Drag image here, or <a href="">click here</a> to upload.
+                                    </div>
+								</div>
+							</fieldset>
+							<hr>
+							<button type="submit">Submit</button>
 						</form>
 					</div>
 				</block>

@@ -68,4 +68,11 @@
 		}
 		h3 { text-align: center; }
 	}
+
+	.greyBox {
+		@include border-radius(5px);
+		border: 2px dashed $ash;
+		text-align: center;
+		padding: 10px 60px;
+	}
 }
