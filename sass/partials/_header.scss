@@ -3,35 +3,43 @@
 .siteHead {
 	width: 100%;
 	@include clearfix;
-	padding: 10px;
+	margin-bottom: -118px;
 	#brand {
-	background-color: $darkGray;
+	//@include opacity(0.7);
+	//background-color: $darkGray;
+	padding: 10px;
+		& > * { @include opacity(1.0); }
 		& > div {
 			@include row();
 			color: $sdpYellow;
 		}
-		.name {
+		.seal {
+			margin-top: 1%;
+			width: 350px;
 			float: left;
-			margin-left: 20px;
-			p {
-				color: $white;
-				font-family: $baseSerif;
-				margin: 0;
-			}
-			.greekName {
-				font-size: 2em;
-				margin-top: 28px;
-				margin-bottom: 0;
-			}
-			.englishName {
-				font-size: 1.2em;
-			}
 		}
-		.iconseal {
-			float: left;
-			font-size: 7em;
-			color: $sdpYellow;	
-		}
+		// .name {
+		// 	float: left;
+		// 	margin-left: 20px;
+		// 	p {
+		// 		color: $white;
+		// 		font-family: $baseSerif;
+		// 		margin: 0;
+		// 	}
+		// 	.greekName {
+		// 		font-size: 2em;
+		// 		margin-top: 28px;
+		// 		margin-bottom: 0;
+		// 	}
+		// 	.englishName {
+		// 		font-size: 1.2em;
+		// 	}
+		// }
+		// .iconseal {
+		// 	float: left;
+		// 	font-size: 7em;
+		// 	color: $sdpYellow;	
+		// }
 		.social {
 			float: right;
 			font-size: 1.5em;
@@ -40,16 +48,17 @@
 		}
 	}
 	nav {
-		@include row();
+		//@include row();
+		float: right;
 		margin-top: 20px;
 		margin-bottom: 3px;
 		border-bottom: 1px solid $platinum;
 		a {
 			padding: 10px 20px 3px 20px;
-			color: $copy;
+			color: $white;
 			&:hover, &:focus {
-				border-bottom: 3px solid $ash;
-				color: $copy + 20;
+				border-bottom: 3px solid $platinum;
+				color: $white + 20;
 			}
 			&.active, &:active { border-bottom: 3px solid $sdpYellow; }
 		}

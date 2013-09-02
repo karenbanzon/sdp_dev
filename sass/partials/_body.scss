@@ -18,8 +18,10 @@
 	.content {
 		@include clearfix;
 		background-color: $grayHighlight;
-		padding: 20px; 
-		& > div { margin-top: 20px; }
+		& > div {
+			margin-top: 20px;
+			padding: 20px; 
+		}
 	}
 
 }
@@ -27,4 +29,5 @@
 
 	// Imports
 	@import 'partials/specific/homepage';
+	@import 'partials/specific/pbmk';
 	@import 'partials/specific/pinkForm';

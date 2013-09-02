@@ -1,9 +1,9 @@
 // Homepage
 
-#homepage {
+#pbmk {
 	.bg {
 		@include row();
-		background: url('/images/essential/bg.jpg');
+		background: url('/images/essential/pbmk.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% auto;
@@ -38,16 +38,16 @@
 	}
 	.block {
 		@include row();
-		text-align: center;
+		//text-align: center;
+		width: 800px;
 		h3, h6 {
 			text-transform: uppercase;
 			font-weight: 400;
 		}
 		h6 { text-align: center !important; }
-		.pillars > div {
-			width: 30%;
-			margin: 1%;
-			display: inline-block;
+		article {
+			width: 800px;
+			margin-top: 40px;
 		}
 	}
 }

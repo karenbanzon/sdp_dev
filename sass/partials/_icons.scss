@@ -11,7 +11,7 @@
 
 .icon { display: inline-block; }
 
-.iconseal, .iconhome, .iconpencil, .iconcheck, .iconx, .iconarrowright, .iconarrowleft, .iconarrowdown, .iconarrowup, .iconfacebook, .icontwitter, .iconpinterest, .iconyoutube {
+.iconseal, .iconhome, .iconpencil, .iconcheck, .iconx, .iconarrowright, .iconarrowleft, .iconarrowdown, .iconarrowup, .iconfacebook, .icontwitter, .iconpinterest, .iconyoutube, .iconplay {
 	font-family: 'sdp';
 	speak: none;
 	font-style: normal;
@@ -34,3 +34,4 @@
 .icontwitter:before { content: "\e00a"; }
 .iconpinterest:before { content: "\e00b"; }
 .iconsyoutube:before { content: "\e00c"; }
+.iconplay:before { content: "\e00d"; }
