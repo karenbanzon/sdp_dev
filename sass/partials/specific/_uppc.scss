@@ -1,31 +1,9 @@
-// Pink Form Styles
+// Homepage
 
-#pinkForm {
-	h1 { text-align: center; }
-	.qualifications {
-		@include col(6);
-		@include prepend (3);
-		@include border-radius(5px);
-		padding: 5px;
-		margin-top: 40px;
-		background-color: $baseYellow;
-		ul { display: table-cell; }
-	}
-	.form {
-		@include col(6);
-		@include prepend (3);
-		margin-top: 40px;
-		padding: 0 20px;
-		h4 {
-			padding: 0 30px;
-			text-align: center;
-		}
-
-	}
-
+#uppc {
 	.bg {
 		@include row();
-		background: url('/images/essential/form.jpg');
+		background: url('/images/essential/uppc.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% auto;
@@ -55,17 +33,21 @@
 		}
 		span {
 			color: $sdpYellow;
-			font-size: 2em;
+			font-weight: 400;
 		}
 	}
 	.block {
 		@include row();
 		//text-align: center;
-		//width: 800px;
+		width: 800px;
 		h3, h6 {
 			text-transform: uppercase;
 			font-weight: 400;
 		}
-		h3 { text-align: center; }
+		h6 { text-align: center !important; }
+		article {
+			width: 800px;
+			margin-top: 40px;
+		}
 	}
 }
